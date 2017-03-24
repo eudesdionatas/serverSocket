@@ -60,7 +60,7 @@ public class Servidor {
         }
         //se o caminho foi igual a / entao deve pegar o /index.html
         if (caminhoArquivo.equals("/")) {
-            caminhoArquivo = "/index.html";
+            caminhoArquivo = "index.html";
         }
         //abre o arquivo pelo caminho
         File arquivo = new File(caminhoArquivo);

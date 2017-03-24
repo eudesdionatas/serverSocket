@@ -14,7 +14,7 @@ public class Servidor {
 
     public static void main(String[] args) throws IOException {
 
-        System.out.println("Servidor aguardando conexõesss");
+        System.out.println("Servidor aguardando conexõessssssssssssssssssss");
         /* cria um socket "servidor" associado a porta 8000 já aguardando conexões*/
         ServerSocket servidor = new ServerSocket(8000);
         //aceita a primeita conexao que vier
